@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.zunaid.Day5.Address;
+package com.zunaid.Day5.job;
 
 /**
  *
- * @author DBA
+ * @author Zunaid
  */
-public class AddresType {
-    private int id; 
+public class JobType {
+    
+    private int id;
     private String name;
 
-    public AddresType() {
+    public JobType() {
     }
 
-    public AddresType(int id, String name) {
+    public JobType(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -28,7 +29,6 @@ public class AddresType {
     public String getName() {
         return name;
     }
-    
     
     
     

@@ -3,33 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.zunaid.Day5.Address;
+package com.zunaid.Day5.edu;
 
 /**
  *
- * @author DBA
+ * @author Zunaid
  */
-public class AddresType {
-    private int id; 
-    private String name;
+public class PassingYear {
+    private int id;
+    private int year;
 
-    public AddresType() {
+    public PassingYear() {
     }
 
-    public AddresType(int id, String name) {
+    public PassingYear(int id, int year) {
         this.id = id;
-        this.name = name;
+        this.year = year;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public int getYear() {
+        return year;
     }
-    
-    
     
     
 }
